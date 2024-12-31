@@ -159,6 +159,23 @@ file.addEventListener('change', function(e) {
 	ret1 += "依頼締め切り時刻" + ":" + MyJigyosha.IraiShimekiriJikoku + "\r\n"
 	ret1 += "一回の配達謝礼" + ":" + MyJigyosha.HaitatuSharei + " 円 \r\n"
 	
+	ret1 += "\r\n\r\n";
+	
+    var now2 = new Date();
+    var nowYear2 = now2.getFullYear();
+    var nowMonth2 = now2.getMonth();
+    var nowDate2 = now2.getDate();
+    
+	ret1 += "#買い物代行ネット～"+nowYear2 +"年"+nowMonth2+"月"+nowDate2+"日"+"～";
+	ret1 += "\r\n";
+	ret1 += "#買い物代行ネット～"+MyJigyosha.JigyoshaMei+"～";
+	ret1 += "\r\n";
+	ret1 += "#買い物代行ネット～"+MyJigyosha.TodohuKen+"～";
+	ret1 += "\r\n";
+	ret1 += "#買い物代行ネット～"+MyJigyosha.SityoSon+"～";
+	ret1 += "\r\n";
+	ret1 += "#買い物代行ネット～"+MyJigyosha.YubinBango+"～";
+	ret1 += "\r\n";
 	
   	return ret1;
   }
@@ -195,7 +212,7 @@ function LoadGameDataFromJsonFile(JsonFileText1){
     
     SetTextbox();
 	
-	alert('ゲームデータをロードしました')
+	alert('事業者情報を読み込みました')
 
 }
 
