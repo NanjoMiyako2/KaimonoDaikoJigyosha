@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>事業者用</title>
+    
+  </head>
+  <body>
+  
+<hr>
+  <form id="myform1">
+    <input id="myfile1" type="file" />
+  </form>
+<br>
+
+<br><br>
+<button type="button" id="OutputSaveData1" style="margin-top:10px; margin-left:30px;" onclick="saveJigyoshaParam2()">事業者情報出力</button>
+<br><br>
+<button type="button" id="LoadSaveData1" style="margin-top:10px; margin-left:30px;" onclick="LoadSaveDataFile()">事業者情報読み込み</button>
+<br><br>
+
+<hr>
+  
+  事業者名:<input type="text" id="JigyoshaMei1" size="10" /><br>
+  サービス中心緯度:<input type="text" id="Ido1" size="10" /><br>
+  サービス中心経度:<input type="text" id="Keido1" size="10" /><br>
+  サービス半径:<input type="text" id="Hankei1" size="10" />km<br>
+  都道府県:<input type="text" id="TodohuKen1" size="10" /><br>
+  市町村:<input type="text" id="SityoSon1" size="10" /><br>
+  郵便番号:<input type="text" id="YubinBango1" size="10" /><br>
+  住所:<input type="text" id="Jusho1" size="50" /><br>
+  依頼開始時刻:<input type="text" id="IraiKaishiJikoku1" size="30" /><br>
+  
+  依頼締め切り時刻:<input type="text" id="IraiShimekiriJikoku1" size="30" /><br>
+  <br><br>
+  <button id="addOneHourBtn1" onclick="AddOneHour()">1時間加算</button><br>
+  <br><br>
+  <button id="resetBtn1" onclick="ResetHour()">リセット</button><br>
+  
+  <br>
+  一回の配達謝礼:<input type="text" id="HaitatuSharei1" value = "500" size="10" />円<br>
+  
+  <hr>
+  
+  <br>
+  <button id="outputStr1" onclick="OutputStr()">事業者情報文字列出力</button><br>  
+  <br>
+  
+  <hr>
+  
+  出力テキスト<br>
+  <textarea id="TextArea1" rows="20" cols="30">
+  </textarea>
+  
+  <hr>
+  
+  <script src="jigyosha.js"></script>
+  </body>
+</html>
