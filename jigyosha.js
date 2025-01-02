@@ -166,15 +166,15 @@ file.addEventListener('change', function(e) {
     var nowMonth2 = now2.getMonth();
     var nowDate2 = now2.getDate();
     
-	ret1 += "#買い物代行ネット～"+nowYear2 +"年"+nowMonth2+"月"+nowDate2+"日"+"～";
+	ret1 += "#買い物代行ネットロ"+nowYear2 +"年"+nowMonth2+"月"+nowDate2+"日"+"ロ";
 	ret1 += "\r\n";
-	ret1 += "#買い物代行ネット～"+MyJigyosha.JigyoshaMei+"～";
+	ret1 += "#買い物代行ネットロ"+MyJigyosha.JigyoshaMei+"ロ";
 	ret1 += "\r\n";
-	ret1 += "#買い物代行ネット～"+MyJigyosha.TodohuKen+"～";
+	ret1 += "#買い物代行ネットロ"+MyJigyosha.TodohuKen+"ロ";
 	ret1 += "\r\n";
-	ret1 += "#買い物代行ネット～"+MyJigyosha.SityoSon+"～";
+	ret1 += "#買い物代行ネットロ"+MyJigyosha.SityoSon+"ロ";
 	ret1 += "\r\n";
-	ret1 += "#買い物代行ネット～"+MyJigyosha.YubinBango+"～";
+	ret1 += "#買い物代行ネットロ"+MyJigyosha.YubinBango+"ロ";
 	ret1 += "\r\n";
 	
   	return ret1;
