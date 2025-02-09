@@ -163,7 +163,7 @@ file.addEventListener('change', function(e) {
 	
     var now2 = new Date();
     var nowYear2 = now2.getFullYear();
-    var nowMonth2 = now2.getMonth();
+    var nowMonth2 = now2.getMonth()+1;
     var nowDate2 = now2.getDate();
     
 	ret1 += "#買い物代行ネットロ"+nowYear2 +"年"+nowMonth2+"月"+nowDate2+"日"+"ロ";
