@@ -243,7 +243,7 @@ function saveJigyoshaParam(Jigyosha1){
   function showTime() {
     var now = new Date();
     var nowYear = now.getFullYear();
-    var nowMonth = now.getMonth();
+    var nowMonth = now.getMonth()+1;
     var nowDate = now.getDate();
     var nowhour = now.getHours();
     var nowminutes = now.getMinutes();
@@ -262,7 +262,7 @@ function saveJigyoshaParam(Jigyosha1){
   
   function getTimeStr(Time1){
 	    var Year1 = Time1.getFullYear();
-	    var Month1 = Time1.getMonth();
+	    var Month1 = Time1.getMonth()+1;
 	    var Date1 = Time1.getDate();
 	    var Hour1 = Time1.getHours();
 	    var Minutes1 = Time1.getMinutes();
